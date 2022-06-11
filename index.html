@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Смотреть в шорошем качестве,Смотерть">
+    <meta name="description" content="...">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon/image icon" href="img/logoFilmLend.svg">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmLend</title>
+</head>
+<body style="overflow-x: hidden;">
+    <div class="header">
+        <div class="header_1">
+            <table>
+                <tr>
+                    <td>
+                        <div class="restangle_1">
+                            <ul>
+                                <li> <a class="logo" href=""> <img src="img/logoFilmLend.svg"> </a> </li>
+                                <li class="htext_1"> <a class="animation_text_1" href="what's new.html"> Что нового </a> </li>
+                                <li class="htext_2"> <a class="animation_text_2" href="Zelyonaya kniga page.html"> Фильмы </a> </li>
+                                <li class="htext_3"> <a class="animation_text_3" href="https://www.tesla.com/"> Сериалы </a> </li>
+                            </ul>
+                        </div> 
+                    </td>
+                    <td class="header_2">
+                        <div class="restangle_2">
+                            <div class="profile">
+                                <a href="https://www.tesla.com/"> <img alt="profile_icon" src="img/Group_account.svg"> </a>
+                            </div>
+                            <div class="search">
+                                <input class="find" type="search" id="finder" oninput="findTXT()"/>
+                                <div class="m" id="main"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <a href="what's new.html"> <img class="slide_img1" src="img/News filmlend.jpg" > </a>
+                </div>
+                <div class="mySlides fade">
+                    <img class="slide_img2" src="img/Place for ads.png" >
+                </div>
+                <div class="mySlides fade">
+                    <img class="slide_img3" src="img/Mem.png" >
+                </div>
+            </div>
+            <br>
+            <!-- Нижние точки -->
+            <div class="Three_dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div> 
+        </div>
+    </div>
+    <!-- Список фильмов -->
+    <div class="container">
+        <div class="Films">
+            <p class="cont_text"> Все фильмы ↓  </p>
+            <div class="film">
+                <table>
+                    <tr>
+                        <td class="film_number_1">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_greenbook">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Зелёная книга </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.9 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="film_number_2">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_1plus1">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> 1+1 </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.7 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="film_number_3">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_social_network">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Социальная с.. </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.6 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="film_number_4">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_spider_man">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Человек-паук </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.6 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="film_number_5">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_enco_world">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Невероятный.. </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.5 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <table class="film_table2">
+                    <tr>
+                        <td class="film_number_6">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_forsazh">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Форсаж </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.3 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="film_number_7">
+                            <a class="f" href="Zelyonaya kniga page.html">
+                                <div class="img_background_interstellar">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Интерстеллар </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.3 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="film_number_8">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_dzhentelmen">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Джентльмены </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.1 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="film_number_9">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_uoll_street">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Волк с Уолл-с.. </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 8.8 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="film_number_10">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_all_films">
+                                    <div class="text_all_films">
+                                        <p class="text_film_number10"> Посмотреть весь список </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Series">
+                <p class="cont_text"> Все сериалы ↓  </p>
+            <div class="Serie">
+                <table>
+                    <tr>
+                        <td class="series_number_1">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_gravity_folz">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Гривити Фолз </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 10 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="series_number_2">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_shamelles">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Бесстыжие </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.7 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="series_number_3">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_supernatural">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Сверхъестест.. </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.6 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="series_number_4">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_rick_and_morti">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Рик и Морти </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.5 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="series_number_5">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_teoria">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Теория больш.. </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.5 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <table class="series_table2">
+                    <tr>
+                        <td class="series_number_6">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_dr_haus">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Доктор Хаус </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.3 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="series_number_7">
+                            <a class="f" href="Zelyonaya kniga page.html">
+                                <div class="img_background_igra_pristolov">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Игра престол.. </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.3 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="series_number_8">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_wayne">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Уэйн </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 9.1 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="series_number_9">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_turtles">
+                                    <div class="position">
+                                        <div class="restangle_cont">
+                                            <div class="restangle_cont2"> 
+                                                <p class="cont2_text"> Черепашки-н.. </p> 
+                                                <div class="reating_restangle">
+                                                    <p class="reating_text"> 8.4 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="series_number_10">
+                            <a href="Zelyonaya kniga page.html">
+                                <div class="img_background_all_series">
+                                    <div class="text_all_series">
+                                        <p class="text_series_number10"> Посмотреть весь список </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="upcoming">
+            <p style="padding-bottom: 15px;"> Скоро на FilmLend ↓ </p>
+            <div class="restangle_trailer">
+                <div class="restangle_trailer2">
+                    <table>
+                        <tr>
+                            <td class="poster_block">
+                                <img style="padding: 0px 0px 0px 73px;" src="img/Up.png">
+                            </td>
+                            <td class="poster_block2">
+                                <p> Вверх </p>
+                                <p class="ptext"> Описание : </p>
+                                <p class="ptext2"> Шедевр от Disney и Pixar,показывающий,<br> как важно следовать за мечтой и не <br> останавливаться на преградах </p>
+                                <div class="click_watch_poster">
+                                    <p class="click_text"> На FilmLend c  23  июня </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="basement">
+        <div class="position_basement_items">
+            <table>
+                <tr>
+                    <td>
+                        <a href=""> <img src="img/instagram.png"> </a>
+                    </td>
+                    <td>
+                        <p class="inst_text"> FilmLend </p>
+                    </td>
+                </tr>
+                <tr class="gmail_position">
+                    <td>
+                        <a href="https://mail.google.com/mail/u/1/#inbox"> <img src="img/gmail.png"> </a>
+                    </td>
+                    <td>
+                        <p class="gmail_text"> thefilmlend@gmail.com </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+
+<script>
+var objects = {
+    "Зелёная книга": "Zelyonaya kniga page.html",
+    "1+1": "https://www.tesla.com/",
+    "Человек-паук: Нет пути домой": "https://www.tesla.com/",
+    "Невероятный мир глазами Энцо": "https://www.tesla.com/",
+    "Социальная сеть": "https://www.tesla.com/",
+    "Форсаж": "https://www.tesla.com/",
+    "Интерстеллар": "https://www.tesla.com/",
+    "Волк с Уолл-стрит": "https://www.tesla.com/",
+    "Джентльмены": "https://www.tesla.com/",
+    "Гравити Фолз": "https://www.tesla.com/",
+    "Рик и Морти": "https://www.tesla.com/",
+    "Бесстыжие": "https://www.tesla.com/",
+    "Сверхъестественное": "https://www.tesla.com/",
+    "Доктор Хаус": "https://www.tesla.com/",
+    "Игра претолов": "https://www.tesla.com/",
+    "Уэйн": "https://www.tesla.com/",
+    "Черепашки-ниндзя": "https://www.tesla.com/"
+};
+
+function findTXT() {
+    let find = document.getElementById("finder").value;
+    let arr = [];
+    for (let i in objects) {
+        if (i.toLowerCase().includes(find.toLowerCase())) { //зеленая книга / зелен
+            arr.push(i);
+        }
+    }
+    document.getElementById("main").innerHTML = "";
+    for (let i of arr) {
+        document.getElementById("main").innerHTML += "<a href='" + objects[i] + "'>" + i + "</a> <br />";
+    }
+}
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Заданное время 5 сек (5000)
+}
+
+</script>
+
+</html>
+
+

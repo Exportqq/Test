@@ -1,0 +1,184 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.background {
+    width: 1920px;
+    height: 1080px;
+    background-color: #2EA68A;
+}
+
+.position_items {
+    width: 1420;
+    height: 920px;
+    padding: 75px 250px 0px 250px;
+}
+
+.header {
+    padding-bottom: 20px;
+}
+
+.film_nav {
+    width: 1420;
+    height: 830px;
+    background-image: url(img/background_image_greenbook.png);
+}
+
+.block_1 {
+    width: 250px;
+    list-style: none;
+    padding: 50px 0px 0px 50px;
+    transform: translateY(-60px);
+}
+
+.block_text {
+    font-family: "Outfit" , sans-serif;
+    font-size: 20px;
+    font-weight: 600;    
+    color: white;
+    padding: 8px 0px 8px 0px;
+}
+
+.btn-scale {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-family: "Outfit" , sans-serif;
+    margin: 0px 4px 8px;
+  }
+
+  li {
+      text-align: center;
+  }
+  
+  .btn-scale-asc-1, .btn-scale-desc-10 {
+    background-color: #33FF00;
+  }
+  
+  .btn-scale-asc-1:hover,
+  .btn-scale-desc-10:hover {
+    background-color: #2CDE00;
+  }
+  
+  .btn-scale-asc-2,
+  .btn-scale-desc-9{
+    background-color: #66FF00;
+  }
+  
+  .btn-scale-asc-2:hover,
+  .btn-scale-desc-9:hover{
+    background-color: #59DE00;
+  }
+  
+  .btn-scale-asc-3,
+  .btn-scale-desc-8 {
+    background-color: #99FF00;
+  }
+  
+  .btn-scale-asc-3:hover,
+  .btn-scale-desc-8:hover {
+    background-color: #85DE00;
+  }
+  
+  .btn-scale-asc-4,
+  .btn-scale-desc-7 {
+    background-color: #CCFF00;
+  }
+  
+  .btn-scale-asc-4:hover,
+  .btn-scale-desc-7:hover {
+    background-color: #B1DE00;
+  }
+  
+  .btn-scale-asc-5,
+  .btn-scale-desc-6 {
+    background-color: #FFFF00;
+  }
+  
+  .btn-scale-asc-5:hover,
+  .btn-scale-desc-6:hover {
+    background-color: #DEDE00;
+  }
+  
+  .btn-scale-asc-6,
+  .btn-scale-desc-5 {
+    background-color: #FFCC00;
+  }
+  
+  .btn-scale-asc-6:hover,
+  .btn-scale-desc-5:hover {
+    background-color: #DEB100;
+  }
+  
+  .btn-scale-asc-7,
+  .btn-scale-desc-4 {
+    background-color: #FF9900;
+  }
+  
+  .btn-scale-asc-7:hover,
+  .btn-scale-desc-4:hover {
+    background-color: #DE8500;
+  }
+  
+  .btn-scale-asc-8,
+  .btn-scale-desc-3 {
+    background-color: #FF6600;
+  }
+  
+  .btn-scale-asc-8:hover,
+  .btn-scale-desc-3:hover {
+    background-color: #DE5900;
+  }
+  
+  .btn-scale-asc-9,
+  .btn-scale-desc-2 {
+    background-color: #FF3300;
+  }
+  
+  .btn-scale-asc-9:hover,
+  .btn-scale-desc-2:hover {
+    background-color: #DE2C00;
+  }
+  
+  .btn-scale-asc-10,
+  .btn-scale-desc-1 {
+    background-color: #FF0000;
+  }
+  
+  .btn-scale-asc-10:hover,
+  .btn-scale-desc-1:hover {
+    background-color: #DE0000;
+  }
+
+.block_2{
+    width: 790px;
+    height: 237px;
+    padding: 0px 0px 0px 40px;
+    transform: translateY(65px);
+}
+
+.film_name_text_1 {
+    font-family: "Outfit" , sans-serif;
+    font-size: 36px;
+    font-weight: 600;  
+    color: white;
+    text-decoration: none;
+
+}
+
+.film_name_text_2 {
+    font-family: "Outfit" , sans-serif;
+    font-size: 20px;
+    font-weight: 600;  
+    color: white;
+    padding: 9px 0px 30px 0px;
+}
+
+.film_video {
+    border-radius: 20px;
+}
